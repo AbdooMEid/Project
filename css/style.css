@@ -1,20 +1,27 @@
 *
 {
     box-sizing: border-box;
+    
 }
 body
 {
     font-family: Arial, Helvetica, sans-serif;
-    
+    background-color: #1E1D1D;
 
 }
-.test{
+nav
+{
+    z-index:3;
+}
+.test
+{
     position: relative;
+    margin-left: 100px;   
 }
 .test h2{
-    font-size: 4rem;
-    color: rgba(0,0,0,.3);
-
+    font-size: 5rem;
+    color: rgba(248, 240, 240, 0.3);
+    
 } 
 .test h3
 {
@@ -22,14 +29,98 @@ body
     top: 20%;
     left: 10%;
     z-index: 2;
-    font-size:2.5rem;
+    font-size:3rem;
+    color: #ddd;
 }
-.navbar
+
+nav div ul li a::after
 {
-    height: 70px;
-    overflow: hidden;
+    content: "|";
+    padding: 10px;
 }
-.bar
+i{
+    padding: 12px;
+    cursor: pointer;
+}
+.brand
 {
-    float: right;
+    color: #686A69;
+}
+
+/* hedar */
+.ahmed
+{
+    background-image: url(../image/1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+}
+h1{
+text-align: center;
+padding-top: 50%;
+transform: translatey(-50%);
+font-size: 5rem;
+font-style: italic;
+font-family: cursive;
+color: #991616;
+}
+/* about */
+.about-hedar
+{
+    color: #ddd;
+    text-decoration-line: underline;
+   text-decoration-style: double;
+   text-decoration-color: #991616;
+}
+.about-text
+{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 80px;
+    color: #ddd;
+}
+.about-img
+{
+    
+    width: 100%;
+    height: 100%;
+
+   
+}
+/* service */
+.service-hedar
+{
+    color: #ddd;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: #991616;
+}
+.service-text
+{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 80px;
+    color: #ddd;
+}
+.service-img
+{
+    border-radius:50px;
+}
+/* contact us */
+.contact
+{
+    background-image: url(../image/map-image.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+.contact-hedar
+{
+    color: white;
+    text-align: center;
+   padding-top: 100px;
 }
